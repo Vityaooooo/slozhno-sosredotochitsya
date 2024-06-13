@@ -22,15 +22,30 @@ p {
   margin: 0;
 }
 
-ul {
+ul,
+button {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+button:disabled {
+  pointer-events: none;
+}
+
 picture {
   margin: 0;
   padding: 0;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 button,
@@ -39,4 +54,29 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+}
+
+button:hover {
+  outline: 1px solid rgba(255, 0, 112, .4);
+}
+
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 1px currentColor;
+}
+
+a:hover {
+  /* text-decoration: underline;
+  text-underline-offset: 3px; */
+  box-shadow: 0px 1px currentColor;
+}
+
+a:focus-visible {
+  outline: 1px solid currentColor;
+  /* TODO: Think how make outline  */
 }
