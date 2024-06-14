@@ -10,7 +10,7 @@
   --accent-color: #FF8DCB;
   --bg-color: #FFF1F7;
   --text-color:#353430;
-  --background-image: url("../images/cover-image-light.png");
+  --background-image: url('../images/cover-image-light.png');
   --subtitle-color: #353430;   
 }
 
@@ -22,8 +22,8 @@
     --accent-color: #FF8DCB;
     --bg-color: #FFF1F7;
     --text-color:#353430;
-    --background-image: url("../images/cover-image-light.png");
-    --subtitle-color: #353430;      
+    --background-image: url('../images/cover-image-light.png');
+    --subtitle-color: #353430;
   }
 
   .page.theme_light {
