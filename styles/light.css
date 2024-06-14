@@ -5,19 +5,18 @@
 */
 
 :root .theme_light {
-  /* Переменные светлой темы */ 
   --shadow-color: #FF0070;
   --accent-color: #FF8DCB;
   --bg-color: #FFF1F7;
   --text-color:#353430;
   --background-image: url('../images/cover-image-light.png');
-  --subtitle-color: #353430;   
+  --subtitle-color: #353430;
 }
 
 /* Остальные стили */
 
 @media (prefers-color-scheme: light) {
-  :root { 
+  :root {
     --shadow-color: #FF0070;
     --accent-color: #FF8DCB;
     --bg-color: #FFF1F7;
