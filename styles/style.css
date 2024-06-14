@@ -98,7 +98,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .title {
