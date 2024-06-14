@@ -25,6 +25,10 @@
   color: var(--accent-color, #ff0070);
 }
 
+.theme_dark .header__title {
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
 .theme_dark .header__theme-menu {
   color: var(--accent-color, #ff0070);
 }

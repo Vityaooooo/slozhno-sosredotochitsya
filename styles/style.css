@@ -93,7 +93,7 @@ main {
   color: var(--text-color, #F1B2CE);
   /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--background-image); */
   background-image: var(--background-image);
-  background-position: center;
+  background-position: center start;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
