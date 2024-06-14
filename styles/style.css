@@ -80,8 +80,9 @@ main {
 }
  */
 
+
 /* Правильно */
- .page {
+.page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background-color: var(--bg-color, #000028);
   padding-inline: var(--content-padding, 10px);
@@ -97,6 +98,11 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px; */
 }
 
 .title {
@@ -286,6 +292,10 @@ main {
     --content-padding: 20px;
   }
 
+  /* .page {
+    gap:60px;
+  } */
+
   .header {
     margin-block-end: 60px;
   }
@@ -304,7 +314,7 @@ main {
   }
 
   .content-section {
-    row-gap: 80px;
+    /* row-gap: 60px; */
     margin-block-end: 60px;
   }
 
