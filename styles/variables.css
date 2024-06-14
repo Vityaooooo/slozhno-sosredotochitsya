@@ -3,9 +3,7 @@
   --bg-color: #000028;
   --text-color:#F1B2CE;
   --main-font: 'IBM Plex mono';
-  /* --content-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem); */
   --content-padding: 10px;
-  /* --content-padding-block: 10px; */
   --background-image: url("../images/cover-image-dark.png");
   --subtitle-color: #000028;
 }
