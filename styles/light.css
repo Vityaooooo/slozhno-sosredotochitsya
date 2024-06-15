@@ -7,7 +7,7 @@
   --subtitle-color: #353430;
   --title-color: #FFC2E6;
   --decor-color: #353430;
-  --hover-rgb: 53, 52, 48;
+  --hover-button-rgb: 53, 52, 48;
 }
 
 /* Остальные стили */
@@ -22,7 +22,7 @@
     --subtitle-color: #353430;
     --title-color: #DB00FF;
     --decor-color: #353430;
-    --hover-rgb: 53, 52, 48;
+    --hover-button-rgb: 53, 52, 48;
   }
 
   .page.theme_light {
