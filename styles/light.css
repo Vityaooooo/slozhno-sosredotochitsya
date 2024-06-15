@@ -20,7 +20,7 @@
     --text-color:#353430;
     --background-image: url('../images/cover-image-light.png');
     --subtitle-color: #353430;
-    --title-color: #DB00FF;
+    --title-color: #FFC2E6;
     --decor-color: #353430;
     --hover-button-rgb: 53, 52, 48;
   }
@@ -32,8 +32,12 @@
     */
   }
 
+  .header__decorate {
+    display: none;
+  }
+
   @media (width >= 1024px) {
-    :root .theme_light {
+    :root {
       --shadow-color: #FF0070;
     }
   }
